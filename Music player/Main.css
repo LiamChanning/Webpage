@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+#bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#bg img{
+    height: 120vh;
+    width: 105%;
+    -webkit-filter:blur(20px);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#blackLayer{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    color: rgb(0, 0, 0);
+}
+
+
+#main {
+    margin-top: 3%;
+    width: 35%;
+    background: -webkit-linear-gradient(to bottom, #000000, #000000);
+    background: linear-gradient(to bottom, #00fff242, #ff008042);
+    border-radius: 15px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+
+
+#head{
+    margin-left: 3%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    left: -20%;
+}
+#image img{
+    height: 440px;
+    width: 100%;
+    margin-top: -2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#player{
+    padding: 25px;
+    color:#333;
+    padding-bottom: 50px;      
+}
+#songTitle{
+    width: 300px;
+    margin-right: 40%;
+    text-align: bottom;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top:50%;
+    left: 66%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    
+}
+#buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    position:relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#play,#next,#pre{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: -webkit-linear-gradient(to right,#ec7a7a,#af93fd);
+    background: linear-gradient(to right,#000000,#0c0c0e);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#next{
+    width: 30px;
+    height: 30px;
+    left: 70%;
+}
+
+
+#pre{
+    width: 30px;
+    height: 30px;
+    left: 30%;
+}
+#play img,#next img,#pre img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#seek-bar{
+    width: 450px;
+    height: 5px;
+    background: -webkit-linear-gradient(to right,#ec7a7a,#af93fd);
+    background: linear-gradient(to right,#bebaba5e,#bebaba5e);
+    display: flex;
+    border-radius: 55px;
+    margin-left: 0%;
+    cursor: pointer;
+}
+#fill{
+    height: 5px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#handle{
+    width: 8px;
+    height: 8px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+#currentTime{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8.75px;
+    position: absolute;
+    top: 90%;
+    left: 83.5%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+
+}
+#volume{
+    position: absolute;
+    top:92%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+#volumeIcon{
+    height: 25px;
+    width: 25px;
+    background-color: mediumblue;
+    border-radius: 50%;
+}
+#volumeIcon img{
+    width: 20%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%-50%);
+}
+#decrease,#increase,#mute{
+    height: 18px;
+    width: 40px;
+    background: -webkit-linear-gradient(to right,#ec7a7a,#af93fd);
+    background: linear-gradient(to right,#ffffff,#ffffff);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: fantasy;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    line-height: 10px;
+    position: relative;
+    left: 4px;
+    top: 30px;
+    cursor: pointer;
+
+}
+#increase{
+    left: 24px;
+    top: 30px;
+
+}
+#mute{
+    left: 11px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
