@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Physics-based pinball game. Use the left/right arrow keys for paddles.">
+
+        <title>Pinball</title>
+
+        <link rel="icon" type="image/png" href="../../favicon.png">
+        <link href="my.css" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+		<script src="poly-decomp.min.js" defer></script>
+		<script src="matter.min.js" defer></script>
+		<script src="matter-attractors.min.js" defer></script>
+        <script src="my.js" defer></script>
+    </head>
+    <body>
+        <div class="current-score">
+            score<br>
+            <span class="score-value"></span>
+        </div>
+        <div class="high-score">
+            high score<br>
+            <span class="score-value"></span>
+        </div>
+        <button class="trigger left-trigger">tap!</button>
+        <button class="trigger right-trigger">tap!</button>
+    </body>
+</html>

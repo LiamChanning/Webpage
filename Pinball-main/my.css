@@ -1,0 +1,71 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	min-height: 100%;
+	margin: 0;
+    color: #f8f9fa;
+    background-color: #212529;
+	font: 1.5rem/1 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+canvas {
+	border: 1px solid #dfe0e4;
+	max-width: calc(100vw - 40px);
+	max-height: calc(100vh - 40px);
+	box-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.current-score, .high-score {
+	position: absolute;
+	top: 20px;
+}
+
+.current-score {
+	left: 20px;
+}
+
+.high-score {
+	right: 20px;
+	text-align: right;
+}
+
+.score-value {
+	font-size: 4rem;
+}
+
+.trigger {
+	appearance: none;
+	  position: absolute;
+	  width: 80px;
+	  height: 80px;
+	  bottom: 10px;
+	border: 0;
+	  border-radius: 50%;
+	color: inherit;
+	  background-color: #FAB005;
+	  text-align: center;
+	  line-height: 80px;
+	  font-size: 1.25rem;
+	text-transform: inherit;
+	  cursor: pointer;
+	  user-select: none;
+	outline: none;
+  }
+  
+  .left-trigger {
+	  left: 10px;
+  }
+  
+  .right-trigger {
+	  right: 60px;
+  }
