@@ -275,4 +275,26 @@
     transform: scale(0.96);
   }
 
+  /* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3000000; 
+}
+
   /*# sourceMappingURL=1.css.map */
