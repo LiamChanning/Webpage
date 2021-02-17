@@ -10,12 +10,12 @@ const PATHS = {
     APRON_RIGHT: '180 0 180 120 0 120 180 0'
 };
 const COLOR = {
-    BACKGROUND: '#212529',
+    BACKGROUND: '#02001B',
     OUTER: '#495057',
     INNER: '#15aabf',
-    BUMPER: '#FAB005',
-    BUMPER_LIT: '#fff3bf',
-    PADDLE: '#FAB005',
+    BUMPER: '#e8005a',
+    BUMPER_LIT: '#3d0219',
+    PADDLE: '#e8005a',
     PINBALL: '#dee2e6'
 };
 const GRAVITY = .75;

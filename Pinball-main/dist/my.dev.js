@@ -11,12 +11,12 @@ var PATHS = {
   APRON_RIGHT: '180 0 180 120 0 120 180 0'
 };
 var COLOR = {
-  BACKGROUND: '#212529',
+  BACKGROUND: '#02001B',
   OUTER: '#495057',
   INNER: '#15aabf',
-  BUMPER: '#FAB005',
-  BUMPER_LIT: '#fff3bf',
-  PADDLE: '#FAB005',
+  BUMPER: '#e8005a',
+  BUMPER_LIT: '#3d0219',
+  PADDLE: '#e8005a',
   PINBALL: '#dee2e6'
 };
 var GRAVITY = .75;
@@ -233,19 +233,19 @@ function createEvents() {
   }); // keyboard paddle events
 
   document.addEventListener('keydown', function (e) {
-    if (e.which === 65) {
+    if (e.which === 37) {
       // left arrow key
       isLeftPaddleUp = true;
-    } else if (e.which === 68) {
+    } else if (e.which === 39) {
       // right arrow key
       isRightPaddleUp = true;
     }
   });
   document.addEventListener('keyup', function (e) {
-    if (e.which === 65) {
+    if (e.which === 37) {
       // left arrow key
       isLeftPaddleUp = false;
-    } else if (e.which === 68) {
+    } else if (e.which === 39) {
       // right arrow key
       isRightPaddleUp = false;
     }

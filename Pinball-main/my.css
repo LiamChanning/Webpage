@@ -13,7 +13,7 @@ body {
 	min-height: 100%;
 	margin: 0;
     color: #f8f9fa;
-    background-color: #212529;
+    background-image:linear-gradient(#02001B, #02001B, #02001B, #3d0219);
 	font: 1.5rem/1 'Roboto', sans-serif;
     text-transform: uppercase;
 }
